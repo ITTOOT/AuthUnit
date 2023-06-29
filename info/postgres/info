@@ -1,0 +1,13 @@
+PGSERVICE = Connection service file
+PGSERVICEFILE = Service file
+PGSYSCONFDIR = Config directory
+PGPASSFILE = Password file
+
+Add the folder pg_config to your postgreSQL folder and add the path to the environment variables.
+
+Create migrations with:
+python manage.py makemigrations core
+*If you hab=ve an app/directory called "core", otherwise use your app name.
+
+Apply new migrations with:
+python manage.py migrate

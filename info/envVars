@@ -1,0 +1,7 @@
+PGSERVICE = Connection service file
+PGSERVICEFILE = Service file
+PGSYSCONFDIR = Config directory
+PGPASSFILE = Password file
+
+
+

@@ -1,0 +1,11 @@
+
+Run the server:
+python manage.py runserver
+
+To create a user with a token:
+python initializeAdmin.py
+
+Check the output in the terminal to see if the access to the admin interface was successful.
+
+Admin Interface
+http://localhost:8000/admin

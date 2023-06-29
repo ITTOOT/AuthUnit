@@ -1,0 +1,35 @@
+Run the test using the Django test runner.
+Open a terminal and navigate to your project directory,
+then run the following command:
+
+    python manage.py test <app_name>
+
+Replace <app_name> with the name of your Django app containing the tests
+
+Create a new file with a .py extension and paste the test code into it.
+For example, you can create a file named tests.py in the same directory as your Django app.
+
+Open a command prompt or terminal and navigate to the root directory of your Django project.
+
+Run the following command to execute the test:
+
+    python manage.py test
+
+This command will run all the tests in your Django project.
+
+The test runner will discover and execute the tests defined in your tests.py file.
+It will display the test results in the console.
+
+If the test passes, you will see an output similar to:
+
+    .
+    ----------------------------------------------------------------------
+    Ran 1 test in 0.001s
+
+    OK
+
+If the test fails, you will see detailed output indicating which assertions failed.
+
+Create a tests directory within each app and place your test files inside it.
+he test file should be named test*.py or *_test.py for the test runner to
+discover and execute them automatically.
